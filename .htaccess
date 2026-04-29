@@ -1,0 +1,5 @@
+# Mencegah eksekusi file PHP di folder ini
+<Files *.php>
+    Order Deny,Allow
+    Deny from all
+</Files>
